@@ -1,0 +1,26 @@
+// const mongoose = require('mongoose')
+const mysql = require('mysql');
+const shortId = require('shortid')
+
+
+
+  
+
+// const shorturlSchema = new mongoose.Schema({
+//     full:{
+//         type:String,
+//         required:true
+//     },
+//     short:{
+//         type:String,
+//         required:true,
+//         default:shortId.generate
+//     },
+//     clicks:{
+//         type:Number,
+//         required:true,
+//         default:0
+//     }
+// })
+
+// module.exports = mysql.model('shorturl')
